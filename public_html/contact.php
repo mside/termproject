@@ -22,30 +22,26 @@
 	<?php include "partials/header.php"; ?>
 <!-- NAV PARTIAL -->
 	<div class="title-tag">
-		<h1>My Work</h1>
-	</div>
-	<div class="content-full-width">
-		<div class="row">
-			<div class="large-4 columns">
-				<img src="img/mauro01.jpg" alt="Mauro Pinedo Professional Compositor">
-			</div>
-			<div class="large-offset-1 large-7 columns">
-//image slider
-				<div class="call-to-action">
-					<a href="#">See More</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="title-tag">
-		<h1>My Skills</h1>
+		<h1>Contact Me</h1>
 	</div>
 	<div class="content-full-width">
 		<div class="content-container row">
-			<div class="large-6 columns">
+			<div class="large-offset-1 large-3 columns">
+				<label class="contact-label">Full Name</label>
+				<input type="text" name="fullName">
+				<label class="contact-label top-spacing">Email Address</label>
+				<input type="text" name="email">
 			</div>
 			<div class="large-6 columns">
+				<label class="contact-label">Comments</label>
+				<textarea class="contact-text" name="comments"></textarea>
+			</div>
+			<div class="large-1 columns"></div>
+		</div>
+		<div class="content-container row">
+			<div class="large-offset-1 large-12 columns">
+				<h4>Or contact me at mauropinedo@gmail.com</h4>
+				<input class="submit-form" type="submit" name="submit" value="Submit">
 			</div>
 		</div>
 	</div>

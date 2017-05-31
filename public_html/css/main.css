@@ -359,7 +359,6 @@ table {
   font-family: 'GothamBold';
   src: url("../fonts/Gotham-Bold.eot");
   src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype");
-  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -369,16 +368,81 @@ table {
   font-weight: 300;
   font-style: normal; }
 
+h3 {
+  font-family: "Whitney-MediumSC", "Helvetica Neue", sans-serif;
+  font-size: 1.25em;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-top: 0; }
+
+h4 {
+  font-family: "GothamLight", "Arial Light", sans-serif;
+  font-size: 1.25em;
+  color: #ffffff; }
+
+p {
+  font-family: "GothamLight", "Arial Light", sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+  margin: 0; }
+
 body {
-  background-color: #000000; }
+  background-color: #000000;
+  color: #000000; }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
+.title-tag {
+  width: 11.25em;
+  background-color: #333333;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  margin: 0 auto; }
+  .title-tag h1 {
+    margin: 0;
+    font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff; }
+
+.content-full-width {
+  width: 100%;
+  background-color: #333333;
+  margin-bottom: 3.75em;
+  padding: 1.4375em; }
+
+.content-container {
+  padding: 1.4375em; }
+
+.call-to-action {
+  max-width: 6.5625em;
+  padding: 0.625em;
+  background-color: #666666;
+  border: 0.1875em solid #ffffff;
+  text-align: center; }
+  .call-to-action a {
+    dispay: block;
+    font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+    font-size: 1em;
+    color: #ffffff; }
+    .call-to-action a:hover {
+      color: #000000; }
+  .call-to-action:hover {
+    background-color: #ffffff;
+    border: 0.1875em solid #000000; }
+
+.bottom-spacing {
+  margin-bottom: 3.75em; }
+
+.top-spacing {
+  margin-top: 3.75em; }
+
 .navbar {
-  margin-top: 1.64375em;
+  margin-top: 2em;
+  margin-bottom: 3.75em;
   width: 100%;
   height: 9.1875em;
   background-color: #333333; }
@@ -392,7 +456,7 @@ ul {
   display: inline-block; }
 
 .nav-logo {
-  margin-top: -10.5em;
+  margin-top: -10.3125em;
   width: 100%; }
 
 .nav-logo-link {
@@ -403,7 +467,6 @@ ul {
   display: inline-block; }
 
 #menu ul {
-  position: absolute;
   background-color: #333333;
   /*Create a horizontal list with spacing*/ }
 
@@ -422,6 +485,7 @@ ul {
   font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
   font-size: 1.625em;
   color: #ffffff;
+  text-transform: capitalize;
   text-decoration: none; }
   #menu a:hover {
     color: #DC3522;
@@ -461,3 +525,79 @@ ul {
   /*Display 'show menu' link*/
   .show-menu {
     display: block; } }
+
+.footer-tag {
+  display: block;
+  width: 2.1875em;
+  margin: 0 auto;
+  padding: 0.625em;
+  background-color: #333333; }
+
+.fa-arrow-up {
+  color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  background-color: #333333;
+  padding: 1.4375em;
+  margin-bottom: 1.4375em; }
+
+.footer-nav {
+  display: block;
+  width: 23.125em;
+  margin: 0 auto; }
+  .footer-nav li {
+    display: inline-block;
+    float: left; }
+  .footer-nav a {
+    display: block;
+    min-width: 3.75em;
+    max-width: 5em;
+    padding: 0.3125em;
+    text-align: center;
+    line-height: 2.5em;
+    font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+    font-size: 1.125em;
+    color: #ffffff;
+    text-transform: capitalize; }
+    .footer-nav a:hover {
+      color: #DC3522;
+      text-decoration: underline; }
+
+h5 {
+  display: block;
+  font-family: "GothamBold", "Arial Bold", sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+  text-align: center; }
+
+.about-content {
+  padding: 1.4375em; }
+
+.contact-label {
+  font-family: "GothamBold", "Arial Bold", sans-serif;
+  font-size: 1.125em;
+  color: #ffffff;
+  margin-bottom: 0.8125em; }
+
+.contact-text {
+  height: 10.3125em;
+  resize: none; }
+
+.submit-form {
+  display: inline-block;
+  max-width: 7.5em;
+  padding: 0.625em;
+  background-color: #666666;
+  border: 0.1875em solid #ffffff;
+  text-align: center;
+  font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+  font-size: 1em;
+  color: #ffffff; }
+  .submit-form:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 0.1875em solid #000000; }
