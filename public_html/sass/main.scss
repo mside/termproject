@@ -11,9 +11,10 @@
 @import "typography";
 @import 'base';
 @import "components/header";
-@import "components/button";
 @import "components/footer";
 @import "pages/index";
+@import "pages/about";
+@import "pages/contact";
 
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing

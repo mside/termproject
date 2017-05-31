@@ -1,28 +1,20 @@
-// h1{
-//   font-size: em-calc(40);
-//   font-family: $ceviche;
-//   color: $grey;
-//   text-align: center;
-//   text-transform: capitalize;
-// }
-//
-// h2{
-//   font-size: em-calc(26);
-//   font-family: $ceviche;
-//   color: $grey;
-//   text-transform: capitalize;
-// }
-//
-// h3{
-//   font-size: em-calc(20);
-//   font-family: $orbitron;
-//   color: $grey;
-//   text-transform: capitalize;
-// }
-//
-// p{
-//   font-size: em-calc(16);
-//   font-family: $hammersmith;
-//   color: $grey;
-//   line-height: 140%;
-// }
+h3{
+  font-family: $whitneyMedium;
+  font-size: em-calc(20);
+  color: $white;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+h4{
+  font-family: $gothamLight;
+  font-size: em-calc(20);
+  color: $white;
+}
+
+p{
+  font-family: $gothamLight;
+  font-size: em-calc(14);
+  color: $white;
+  margin: 0;
+}
