@@ -1,0 +1,24 @@
+.blog-title-tag{
+  width: em-calc(375);
+}
+
+.moving-background-container{
+  position: relative;
+  width: 100%;
+  height: em-calc(150);
+  background-image: url('../img/repeat-background.png');
+  background-repeat: repeat;
+  background-position: 0px 0px;
+//animate background
+  animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.blog-container{
+  padding-left: 0;
+  padding-right: 0;
+}

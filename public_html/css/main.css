@@ -368,6 +368,18 @@ table {
   font-weight: 300;
   font-style: normal; }
 
+h1 {
+  font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+  font-size: 1.75em;
+  color: #ffffff;
+  text-transform: capitalize; }
+
+h2 {
+  font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-transform: capitalize; }
+
 h3 {
   font-family: "Whitney-MediumSC", "Helvetica Neue", sans-serif;
   font-size: 1.25em;
@@ -379,6 +391,12 @@ h4 {
   font-family: "GothamLight", "Arial Light", sans-serif;
   font-size: 1.25em;
   color: #ffffff; }
+
+h5 {
+  font-family: "GothamBold", "Arial Bold", sans-serif;
+  font-size: 1.125em;
+  color: #ffffff;
+  text-align: center; }
 
 p {
   font-family: "GothamLight", "Arial Light", sans-serif;
@@ -439,6 +457,9 @@ ul {
 
 .top-spacing {
   margin-top: 3.75em; }
+
+.top-spacing-small {
+  margin-top: 0.9375em; }
 
 .navbar {
   margin-top: 2em;
@@ -590,6 +611,7 @@ h5 {
 .submit-form {
   display: inline-block;
   max-width: 7.5em;
+  float: right;
   padding: 0.625em;
   background-color: #666666;
   border: 0.1875em solid #ffffff;
@@ -601,3 +623,91 @@ h5 {
     color: #000000;
     background-color: #ffffff;
     border: 0.1875em solid #000000; }
+
+.inline-label {
+  max-width: 28.125em;
+  display: inline-block;
+  line-height: 2.8125em; }
+
+.social-container {
+  display: inline-block;
+  max-width: 3.125em;
+  margin-top: 0.625em;
+  margin-left: 0.625em; }
+  .social-container a {
+    color: #ffffff;
+    width: 100%;
+    height: 100%; }
+
+.blog-title-tag {
+  width: 23.4375em; }
+
+.moving-background-container {
+  position: relative;
+  width: 100%;
+  height: 9.375em;
+  background-image: url("../img/repeat-background.png");
+  background-repeat: repeat;
+  background-position: 0px 0px;
+  -webkit-animation: animatedBackground 40s linear infinite;
+  animation: animatedBackground 40s linear infinite; }
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+
+.blog-container {
+  padding-left: 0;
+  padding-right: 0; }
+
+.inline-header {
+  max-width: 12.5em;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  line-height: 2.5em; }
+
+.portfolio-name {
+  margin-top: 0; }
+
+.filter-portfolio {
+  display: inline-block;
+  width: 7.5em;
+  height: 3.4375em;
+  float: left;
+  margin-left: 1.5625em;
+  padding: 0.3125em;
+  background-color: #666666;
+  border: 0.1875em solid #ffffff;
+  text-align: center;
+  font-family: "Whitney-BoldSC", "Helvetica", sans-serif;
+  font-size: 1em;
+  color: #ffffff; }
+  .filter-portfolio:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 0.1875em solid #666666; }
+
+.portfolio-content-container {
+  background-color: #333333; }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden; }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
