@@ -21,35 +21,18 @@
 <!-- NAV PARTIAL -->
 	<?php include "partials/header.php"; ?>
 <!-- NAV PARTIAL -->
-	<div class="title-tag">
-		<h1>Contact Me</h1>
+	<div class="title-tag blog-title-tag">
+		<h1>Nuke Vs After Effects</h1>
+		<h5>24/05/2017</h5>
 	</div>
-	<div class="content-full-width">
-		<div class="content-container row">
-			<div class="large-offset-1 large-3 columns">
-				<label class="contact-label">Full Name</label>
-				<input type="text" name="fullName">
-				<label class="contact-label top-spacing">Email Address</label>
-				<input type="text" name="email">
+	<div class="content-full-width blog-container">
+		<div class="moving-background-container">
+			<div class="centered-image">
 			</div>
-			<div class="large-6 columns">
-				<label class="contact-label">Comments</label>
-				<textarea class="contact-text" name="comments"></textarea>
-			</div>
-			<div class="large-1 columns"></div>
 		</div>
-		<div class="content-container row">
-			<div class="large-offset-1 large-9 columns">
-				<label class="inline-label contact-label">Or contact me at mauropinedo@gmail.com</label>
-				<div class="social-container">
-					<a href="https://www.linkedin.com/in/mauro-pinedo-33942393/">
-						<span class="fa-stack fa-lg">
-						  <i class="fa fa-square-o fa-stack-2x"></i>
-						  <i class="fa fa-linkedin fa-stack-1x"></i>
-						</span>
-					</a>
-				</div>
-				<input class="submit-form" type="submit" name="submit" value="Submit">
+		<div class="row">
+			<div class="large-6 large-offset-3 columns">
+				<p></p>
 			</div>
 		</div>
 	</div>
